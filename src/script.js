@@ -40,7 +40,7 @@ const setTime = () => {
 
     hours.style.transform = `rotate(${currentHours * 30 + currentMinutes / 2}deg)`;
     minutes.style.transform = `rotate(${currentMinutes * 6}deg)`;
-    seconds.style.transform = `rotate(${currentMinutes * 6}deg)`;
+    seconds.style.transform = `rotate(${currentSeconds * 6}deg)`;
     setTimeout(setTime, 1000)
 } 
 setTime();
